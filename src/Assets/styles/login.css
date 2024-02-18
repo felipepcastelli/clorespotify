@@ -1,0 +1,195 @@
+body{
+    background-image: linear-gradient(to bottom,#393939,#000000 )
+}
+
+.logo {
+    width: 80px;
+    text-decoration: none;
+    color: #121212;
+    margin-right: 16px;
+}
+.container__{
+    background: #121212;
+    display: flex;
+    padding: 26px 0 16px 26px;
+}
+.login__buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #121212;
+    padding: 100px 0 50px;
+    align-items: center;
+    margin: 30px 400px 0 400px;
+    border-radius: 18px;
+}
+.login__buttom .login__app{
+    background-color: transparent;
+    border: 2px solid #878787;
+    cursor: pointer;
+    width: 350px;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    color:#ffffff;
+}
+.login__app:hover{
+    border: 3px solid #d6d6d6;
+}
+.login__buttom .login__apple{
+    background-color: transparent;
+    border: 2px solid #878787;
+    cursor: pointer;
+    width: 350px;
+    margin: 8px;
+    padding: 10px 30px 10px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#ffffff;
+}
+.login__apple:hover{
+    border: 3px solid #d6d6d6;
+}
+.app__acesso{
+    margin-left: 20px;
+}
+.sociais{
+    padding: 20px;
+}
+.titulo__login{
+    padding-bottom: 44px;
+    color: var(--cor-primaria);
+    font-family: var(--font-dm-sans);
+    font-size: 36px;
+    font-weight: 700;
+}
+.header__email {
+    width: 340px;
+    height: 36px;
+    margin-left: 8px;
+    background-color: #242424;
+    border: 1px solid #878787;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color:#878787;
+}
+.header__email:hover{
+    border: 1px solid #d6d6d6;
+}
+.header__senha {
+    width: 340px;
+    height: 36px;
+    margin-left: 8px;
+    background-color: #242424;
+    border: 1px solid #878787;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color:#878787;
+}
+.header__senha:hover{
+    border: 1px solid #d6d6d6;
+}
+.header__senha input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    color:var(--cor-primaria);
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+
+
+.label__mail{
+    display: flex;
+    width: 340px;
+    height:25px;
+    padding: 20px 1px 1px 9px;
+    color: var(--cor-primaria);
+    font-family: var(--font-dm-sans);
+    font-size: 12px;
+    font-weight: 600;
+}
+.header__email input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    color:var(--cor-primaria);
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    outline: none;
+}
+.acesso__mail{
+    padding: 30px;
+    border-top: 1px solid #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.login__entrar{
+    background-color: #23e466;
+    border: 2px solid transparent;
+    cursor: pointer;
+    width: 340px;
+    margin: 28px 28px 28px 15px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    color:#010000;
+}
+.login__entrar:hover{
+    transform: scale(1.03);
+}
+.esquecer__senha{
+padding: 12px;
+}
+.footer_login{
+    display: flex;
+    justify-content: center;
+    background-color: #1b1a1a;
+    color: #6b6969;
+    padding: 40px;
+    margin-top: 15px;
+    font-family: var(--font-dm-sans);
+}
+.esquecer__senha{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: var(--font-dm-sans);
+}
+.senha__link{
+    text-decoration: none;
+    color: #afa2a2;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.senha__link:hover{
+    color: #23e466;
+}
+.nova__conta{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    font-weight: 600;
+    width: 340px;
+    margin:28px 50px 5px;
+    padding: 30px 0 30px 0;
+    font-size: 13px;
+    font-family: var(--font-dm-sans);
+    color: #afa2a2;
+}

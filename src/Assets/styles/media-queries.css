@@ -1,0 +1,58 @@
+@media screen and (max-width: 1010px) {
+    .offer__list-item {
+      grid-template-columns: 1fr;
+    }
+    .sidebar, .inscreva{
+      display: none;
+    }
+    .navigation{
+      display: none;
+    }
+    .main-container{
+      margin: 0;
+      max-width: 100vh;
+    }
+    .header__search{
+        width: 150px;
+        height: 48px;
+        margin-left: 18px;
+    }
+    .header__search input {
+      background: transparent;
+      border: none;
+      padding: 0px 10px 0 12px;
+      color:var(--cor-primaria);
+      text-overflow: ellipsis;
+      overflow:hidden;
+      white-space: nowrap;
+      outline: none;
+    }
+    .spotify__empresas{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 0 120px 0;
+    }
+    .media__icon{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .app__acesso{
+    font-size: 15px;
+    }
+    .login__buttom{
+      padding: 0;
+      align-items: center;
+      margin: 10px 10px 10px 0;
+      border-radius: 18px;
+    }
+    .titulo__login{
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+  }

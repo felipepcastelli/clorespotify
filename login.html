@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="/src/Assets/styles/reset.css">
+    <link rel="stylesheet" href="/src/Assets/styles/login.css">
+    <link rel="stylesheet" href="/src/Assets/styles/vars.css">
+    <link rel="stylesheet" href="/src/Assets/styles/media-queries.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/7dc5ba28db.js" crossorigin="anonymous"></script>
+    <title>Spotify Login</title>
+</head>
+<body>
+    <div class="container__">
+        <a href="index.html">
+            <img class="logo" src="src/Assets/icons/logo-spotify.png" alt="Logotipo do Spotify">
+        </a>
+    </div>
+    <section class="login__buttom">
+        <div>
+            <p class="titulo__login">Iniciar sessão no Spotify</p>
+        </div>
+        <div class="sociais">
+            <div>
+                <button class="login__app">
+                    <i class="fa-brands fa-google" style="font-size:20px"></i>
+                    <span class="app__acesso" >Continuar com Google</span>
+                </button>
+            </div>
+            <div>
+                <button class="login__app">
+                    <i class="fa-brands fa-facebook" style="font-size:20px"></i>
+                    <span class="app__acesso" >Continuar com Facebook</span>
+                </button>
+            </div>
+            <div>
+                <button class="login__apple">
+                    <i class="fa-brands fa-apple" style="font-size:20px"></i>
+                    <span class="app__acesso" >Continuar com Apple</span>
+                </button>
+            </div>
+        </div>
+        <div class="acesso__mail">
+            <span class="label__mail">
+                <label>E-mail ou nome de utilizador</label>
+            </span>
+            <div class="header__email">
+                <input id="search-input" type="text" maxlength="200" placeholder="E-mail ou nome de utilizador"/>
+            </div>
+            <span class="label__mail">
+                <label>Palavra-passe</label>
+            </span>
+
+            <div class="header__senha">
+                <input type="password" id="senha">
+                <i class="bi bi-eye-slash" style="font-size:20px"></i>
+            </div>
+
+            <div>
+                <button class="login__entrar">
+                    <span class="app__acesso">Iniciar Sessão</span>
+                </button>
+            </div>
+            <div class="esquecer__senha">
+                <a href="index.html" class="senha__link">Esqueceste-te da tua palavra-passe?</a>
+            </div>
+        </div>
+        <div class="nova__conta">
+            <ul class="link__conta">
+            <span>Não tens conta? </span>
+            <a href="index.html" class="senha__link"> Regista-te no Spotify</a>
+            </ul>
+        </div>
+    </div>
+    </section>
+</body>
+<footer>
+    <div class="footer_login">
+        <span>Este site é protegido por reCAPTCHA. Aplicam-se a Política de Privacidade e os Termos do Serviço da Google.</span>
+    </div>
+</footer>
+</html>
